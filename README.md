@@ -1,4 +1,5 @@
-stumblingrumblin.github.com
-===========================
+The personal homepage of Gary Grumbley
+=======================================
+----------------------------------------------
+#### Visit at: [www.garygrumbley.com](http://www.garygrumbley.com "Personal Homepage")
 
-The personal BLOG of Gary H. Grumbley II. Built on Jekyll and styled with Flatstrap.
