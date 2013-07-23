@@ -77,6 +77,15 @@ body {
 	text-decoration: none;
 }
 
+.tile {
+	border-style:solid;
+	border-width:1px;
+  	padding: 10px 25px;
+  	margin: 10px;
+  	background:white;
+	background:rgba(255,255,255,0.2);
+	
+}
 .tile h2 {
 	font-size: 18px;
 }
