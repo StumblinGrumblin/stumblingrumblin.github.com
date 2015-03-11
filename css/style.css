@@ -17,6 +17,12 @@ body {
   margin-top: 30px;
 }
 
+.project-card {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px 0px, rgba(0, 0, 0, 0.117647) 0px 1px 6px 0px;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px 0px, rgba(0, 0, 0, 0.117647) 0px 1px 6px 0px;
+  box-sizing: border-box;
+}
 .project-card img {
   margin: 0 0;
+
 }
