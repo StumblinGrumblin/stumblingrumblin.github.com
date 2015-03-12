@@ -9,6 +9,8 @@
 
   <!-- Bootstrap -->
   <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bower_components/bootstrap-material-design/dist/css/ripples.min.css" rel="stylesheet">
+  <link href="bower_components/bootstrap-material-design/dist/css/material-wfont.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/png" href="images/G-Favicon.png">
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -20,7 +22,7 @@
 </head>
 
 <body>
-  <div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar navbar-default navbar-fixed-top">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
         <span class="icon-bar"></span>
@@ -32,8 +34,8 @@
       <div class="navbar-collapse collapse navbar-inverse-collapse">
         <ul class="nav navbar-nav">
           <li><a href="index.html">Home</a></li>
-          <li><a href="blog.html">Blog</a></li>
           <li class="active"><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
         </ul>
       </div>
     </div>
@@ -43,40 +45,40 @@
     <div class="row">
 
       <div class="col-sm-6 col-md-4">
-        <div class="thumbnail project-card">
-          <img src="images/project-tabs.png" alt="tabs page">
-          <div class="caption">
-            <h4>Dynamically Generated Tabs</h4>
-            <p>This is a simple page UI I built using jQuery and CSS3 transitions. The user can generate multiple boxes and specify how many tabs are in each box as well as which tab will be the default tab. The color for each box is selected at random.</p>
-            <p>
-              <a href="portfolio_pages/dynamicTabGenerator/dynamic.html" class="btn btn-primary" role="button" target="_blank">Project</a>
-              <a href="https://github.com/StumblinGrumblin/dynamicTabGenerator" class="btn btn-default" role="button" target="_blank">GitHub</a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-md-4">
-        <div class="thumbnail project-card">
+        <div class="well infobox">
           <img src="images/project-myWhiskyShelf.png" alt="whisky collection site">
           <div class="caption">
             <h4>Whisky App</h4>
             <p>This is my most current project and is a work in progress. It is a site for recording the user's whisky collection and allows them to add their own impressions of the whisky. This application is built with the Ruby on Rails Omakase stack.</p>
             <p>
               <a href="#" class="btn btn-primary" role="button">Project</a>
-              <a href="https://github.com/StumblinGrumblin/myWhiskeyShelf" class="btn btn-default" role="button" target="_blank">GitHub</a></p>
+              <a href="https://github.com/StumblinGrumblin/myWhiskeyShelf" class="btn btn-info" role="button" target="_blank">GitHub</a></p>
           </div>
         </div>
       </div>
 
       <div class="col-sm-6 col-md-4">
-        <div class="thumbnail project-card">
+        <div class="well infobox">
+          <img src="images/project-tabs.png" alt="tabs page">
+          <div class="caption">
+            <h4>Dynamically Generated Tabs</h4>
+            <p>This is a simple page UI I built using jQuery and CSS3 transitions. The user can generate multiple boxes and specify how many tabs are in each box as well as which tab will be the default tab. The color for each box is selected at random.</p>
+            <p>
+              <a href="portfolio_pages/dynamicTabGenerator/dynamic.html" class="btn btn-primary" role="button" target="_blank">Project</a>
+              <a href="https://github.com/StumblinGrumblin/dynamicTabGenerator" class="btn btn-info" role="button" target="_blank">GitHub</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="well infobox">
           <img src="images/project-blog.png" alt="personal blog site">
           <div class="caption">
             <h4>Personal Blog</h4>
             <p>This is the first web project I ever did, it was completed in early 2013. I built this BLOG backend in Python to learn what goes into making a web framework work. It uses Jinja2 for templating and runs on Google's Cloud Platform. </p>
             <p>
               <a href="http://www.stumblingrumblin.com/" class="btn btn-primary" role="button" target="_blank">Project</a>
-              <a href="https://github.com/StumblinGrumblin/blog_back_end" class="btn btn-default" role="button" target="_blank">GitHub</a></p>
+              <a href="https://github.com/StumblinGrumblin/blog_back_end" class="btn btn-info" role="button" target="_blank">GitHub</a></p>
           </div>
         </div>
       </div>
@@ -88,6 +90,8 @@
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/bootstrap-material-design/dist/js/ripples.min.js"></script>
+  <script src="bower_components/bootstrap-material-design/dist/js/material.min.js"></script>
 </body>
 
 </html>

@@ -9,6 +9,8 @@
 
   <!-- Bootstrap -->
   <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bower_components/bootstrap-material-design/dist/css/ripples.min.css" rel="stylesheet">
+  <link href="bower_components/bootstrap-material-design/dist/css/material-wfont.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/png" href="images/G-Favicon.png">
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -20,7 +22,7 @@
 </head>
 
 <body>
-  <div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar navbar-default navbar-fixed-top">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
         <span class="icon-bar"></span>
@@ -32,13 +34,13 @@
       <div class="navbar-collapse collapse navbar-inverse-collapse">
         <ul class="nav navbar-nav">
           <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="blog.html">Blog</a></li>
           <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="jumbotron">
+  <div id="main-header" class="jumbotron">
     <div class="container">
       <img src="images/portrait.png" alt="Portrait" class="img-circle">
       <h1>Gary H. Grumbley II</h1>
@@ -64,6 +66,7 @@
           </li>
         </ul>
       </div>
+
       <div class="col-md-6">
         <h3 class="page-header">Experience</h3>
         <ul>
@@ -83,70 +86,77 @@
 
         </ul>
       </div>
-      <div class="row">
-        <h3 class="page-header col-md-12">Skills</h3>
+    </div>
 
-        <div class="col-md-4">
-          <h4>HTML & CSS</h4>
-          <ul>
-            <li>Writing clean markup and reusable styles.</li>
-            <li>Building adaptive web apps that work on all browsers and platforms.</li>
-            <li>Using frameworks and precompilers to make development fast and agile.</li>
-            <li>Staying up to date on new HTML5/CSS3 features and support.</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h4>Javascript</h4>
-          <ul>
-            <li>Experience writing both modular and object oriented code.</li>
-            <li>Familiar with most libraries and frameworks. Including jQuery, Backbone.js and Angular.js.</li>
-            <li>Proficient in Node.js for back-end development.</li>
-            <li>Proficient with JSON and JSON based databases like MongoDB or CouchDB.</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h4>Legal and IP Protection</h4>
-          <ul>
-            <li>Final paper in law school was on Open Source Licensing for hardware start-up companies.</li>
-            <li>Experience drafting NDAs.</li>
-            <li>Experience working with a patent prosecution team.</li>
-            <li>Accomplished at streamlining existing workflows and documenting efficient best practices.</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h4>Supplementary Computer</h4>
-          <ul>
-            <li>Git/GitHub</li>
-            <li>MySQL/MongoDB</li>
-            <li>Linux Command Line</li>
-            <li>Regex</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h4>Current Toolkit</h4>
-          <ul>
-            <li>iTerm</li>
-            <li>Sublime</li>
-            <li>Chrome (Dev Tools)</li>
-            <li>Charles Web Debugging Proxy</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h4>Random</h4>
-          <ul>
-            <li>Surfing</li>
-            <li>Jogging and Trail Running</li>
-            <li>Embedded Systems Hacking</li>
-            <li>I &#60;3 spreadsheets</li>
-          </ul>
-        </div>
+    <div class="row">
+      <h3 class="page-header col-md-12">Skills</h3>
+
+      <div class="col-md-4">
+        <h4>HTML & CSS</h4>
+        <ul>
+          <li>Writing clean markup and reusable styles.</li>
+          <li>Building adaptive web apps that work on all browsers and platforms.</li>
+          <li>Using frameworks and precompilers to make development fast and agile.</li>
+          <li>Staying up to date on new HTML5/CSS3 features and support.</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h4>Javascript</h4>
+        <ul>
+          <li>Experience writing both modular and object oriented code.</li>
+          <li>Familiar with most libraries and frameworks. Including jQuery, Backbone.js and Angular.js.</li>
+          <li>Proficient in Node.js for back-end development.</li>
+          <li>Proficient with JSON and JSON based databases like MongoDB or CouchDB.</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h4>Legal and IP Protection</h4>
+        <ul>
+          <li>Final paper in law school was on Open Source Licensing for hardware start-up companies.</li>
+          <li>Experience drafting NDAs.</li>
+          <li>Experience working with a patent prosecution team.</li>
+          <li>Accomplished at streamlining existing workflows and documenting efficient best practices.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Supplementary Computer</h4>
+        <ul>
+          <li>Git/GitHub</li>
+          <li>MySQL/MongoDB</li>
+          <li>Linux Command Line</li>
+          <li>Regex</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h4>Current Toolkit</h4>
+        <ul>
+          <li>iTerm</li>
+          <li>Sublime</li>
+          <li>Chrome (Dev Tools)</li>
+          <li>Charles Web Debugging Proxy</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h4>Random</h4>
+        <ul>
+          <li>Surfing</li>
+          <li>Jogging and Trail Running</li>
+          <li>Embedded Systems Hacking</li>
+          <li>I &#60;3 spreadsheets</li>
+        </ul>
       </div>
     </div>
   </div>
+
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/bootstrap-material-design/dist/js/ripples.min.js"></script>
+  <script src="bower_components/bootstrap-material-design/dist/js/material.min.js"></script>
 </body>
 
 </html>
