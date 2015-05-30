@@ -1,0 +1,27 @@
+<div class="container">
+
+  <h2>{{walk.title}}</h2>
+
+  <div ng-controller="WalksCtrl as ctrl" class="mediaSelect">
+    <p class="text-warning">{{ctrl.error}}</p>
+    <h3>{{ctrl.selected.location}}</h3>
+    <h4>{{ctrl.selected.text}}</h4>
+    <div class="output">
+      {{ctrl.selection}}
+    </div>
+    <div class="keyPad">
+      <button class="btn btn-info" name="btn0" value="0" ng-click="ctrl.updateSelection(0)">0</button>
+      <button class="btn btn-info" name="btn1" value="1" ng-click="ctrl.updateSelection(1)">1</button>
+      <button class="btn btn-info" name="btn2" value="2" ng-click="ctrl.updateSelection(2)">2</button>
+      <button class="btn btn-info" name="btn3" value="3" ng-click="ctrl.updateSelection(3)">3</button>
+      <button class="btn btn-info" name="btn4" value="4" ng-click="ctrl.updateSelection(4)">4</button>
+      <button class="btn btn-info" name="btn5" value="5" ng-click="ctrl.updateSelection(5)">5</button>
+      <button class="btn btn-info" name="btn6" value="6" ng-click="ctrl.updateSelection(6)">6</button>
+      <button class="btn btn-info" name="btn7" value="7" ng-click="ctrl.updateSelection(7)">7</button>
+      <button class="btn btn-info" name="btn8" value="8" ng-click="ctrl.updateSelection(8)">8</button>
+      <button class="btn btn-info" name="btn9" value="9" ng-click="ctrl.updateSelection(9)">9</button>
+
+      <button class="btn btn-success" name="playPause" ng-click="ctrl.reqMedia()">&#9658;</button>
+    </div>
+  </div>
+</div>
